@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Kumbh+Sans:wght@300;400&display=swap');
+
+body{
+    background-color: hsl(185, 75%, 39%);
+}
+
+img{
+    width: 100px;
+    border-radius: 50%;
+    
+}
+
+.cartao{
+    background-color: antiquewhite;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    margin: auto;
+}
+
+.bloco1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Kumbh Sans";
+    font-weight: 400;
+}
+
+span{
+    font-weight: bold;
+}
+
+.cidade{
+    padding: 20px;
+}
+
+.bloco2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 30px;
+    padding-top: 30px;
+    justify-content: space-evenly;
+    font-family: "Kumbh Sans";
+}
+
+@media(max-width: 425px){
+
+}
